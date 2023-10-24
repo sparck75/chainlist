@@ -1,4 +1,4 @@
-import {generateChainData} from "./utils/fetch.js"
+import {generateChainData} from "./utils/fetch.mjs"
 import {writeFileSync} from "fs"
 
 async function writeRpcsJson(){

@@ -1,4 +1,4 @@
-import allExtraRpcs from "../constants/extraRpcs.js";
+import allExtraRpcs from "../constants/extraRpcs.mjs";
 import chainIds from "../constants/chainIds.json" assert { type: "json" };
 import fetch from "node-fetch"
 

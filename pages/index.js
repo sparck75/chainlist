@@ -78,8 +78,7 @@ function Home({ chains }) {
               {filteredChains.map((chain, idx) => {
                 if (idx === 2) {
                   return (
-                    <React.Fragment key={JSON.stringify(chain) + "en" + "with-banner"}>
-                      <AdBanner />
+                    <React.Fragment key={JSON.stringify(chain) + "en"}>
                       <Chain chain={chain} lang="en" />
                     </React.Fragment>
                   );
